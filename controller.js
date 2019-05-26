@@ -11,6 +11,7 @@ controller2048 = {
   init: function() {
     model2048.init();
     view2048.init();
+    console.log(this.model.values);
   },
 
 }
