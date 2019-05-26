@@ -1,4 +1,22 @@
 
 
+.grid-container{
+  width: 400px;
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.square .value{
+  text-align: center;
+  transform: translateY(100%);
+  font-size: 30px;
+}
+
 
 
